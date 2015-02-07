@@ -2,16 +2,67 @@
 <html lang="ko">
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width>
-	<!-- <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no" -->
-	<!--  -->
-	<title>HTML5</title>
-	<sytle>
-		p{background:red}
-	</style>	
+	<meta name="viewport" content="width=device-width">
+	<title>HTML</title>
+	<link rel="stylesheet" href="default.css">
 </head>
-<body>
-	<p>...</p>
-	<p style="background:yellow;text-decoration:underline">Hello World!</p>
+<body>	
+	<div class="container">
+		<a href="#main">메뉴 건너뛰기</a>
+		<header class="header">
+			<h1>HTMS5</h1>
+			<nav class="gnb">
+				<h2>메인 메뉴</h2>
+				<ul>
+					<li>
+						<a href="#">메뉴 1</a></li>
+						<ul>
+							<li><a href="#">메뉴 1-1</a></li>	
+							<li><a href="#">메뉴 1-2</a></li>
+							<li><a href="#">메뉴 1-3</a></li>
+						</ul>
+					<li><a href="#">메뉴 2</a></li>
+						<ul>
+							<li><a href="#">메뉴 2-1</a></li>	
+							<li><a href="#">메뉴 2-2</a></li>
+							<li><a href="#">메뉴 2-3</a></li>
+						</ul>
+					<li><a href="#">메뉴 3</a></li>
+					 	<ul>
+							<li><a href="#">메뉴 3-1</a></li>	
+							<li><a href="#">메뉴 3-2</a></li>
+							<li><a href="#">메뉴 3-3</a></li>
+						</ul>
+			</nav>
+			<form class="search">
+				<input type="search" required="required">
+				<input type="submit" value="검색">
+			</form>
+		</header>
+		<div class="body">
+			<main id="main">
+				#main
+			</main>
+			<nav class="lnb">
+				<ul>
+					<h2>메뉴 1</h2>
+					<li><a href="#">메뉴 1-1</a></li>
+					<li><a href="#">메뉴 1-2</a></li>
+					<li><a href="#">메뉴 1-3</a></li>
+				</ul>	
+			</nav>
+			<aside class="aside">
+				<ul>
+					<h2>바로가기</h2>
+					<li><a href="#">참고 링크 1</a></li>
+					<li><a href="#">참고 링크 2</a></li>
+					<li><a href="#">참고 링크 3</a></li>
+				</ul>	
+			</aside>
+		</div>
+		<footer class-"footer">
+			<p>Copyright &Copy; FE.CAMP. All rights reserved.</p>
+		</footer>
+	</div>
 </body>		
 </html>
