@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS test</title>		
+	<style>
+	.parent{
+		background: #ccc;
+		margin-top: 50px;
+	}
+	.a{
+		background: #f00;
+		margin-top: 50px;
+	}
+	</style>	
+</head>
+<body>	
+	<div class="parent">
+		<div class="a">a</span>
+		<div class="b">b</span>	
+	</div>
+</body>
+</html>	
